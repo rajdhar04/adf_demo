@@ -5,9 +5,6 @@
 		"factoryName": {
 			"value": "raj-adf-practice-2026"
 		},
-		"LS_AzureSQL_RajPractice_password": {
-			"value": ""
-		},
 		"LS_AzureSQLDB_Source_properties_typeProperties_url": {
 			"value": "https://rajadfstorage2026.dfs.core.windows.net/"
 		},
@@ -25,6 +22,9 @@
 		},
 		"TGR_EVENT_SIMPLE_properties_typeProperties_scope": {
 			"value": "/subscriptions/894fba2c-23bd-4a49-bc93-01dfd3b1239f/resourceGroups/raj_adf_practice/providers/Microsoft.Storage/storageAccounts/rajadfstorage2026"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://demo-vault-raj.vault.azure.net/"
 		},
 		"containerUri": {
 			"value": ""
