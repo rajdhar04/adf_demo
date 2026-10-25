@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "raj-adf-practice-2026"
+		},
+		"LS_AzureSQL_RajPractice_password": {
+			"value": ""
+		},
+		"LS_AzureSQLDB_Source_properties_typeProperties_url": {
+			"value": "https://rajadfstorage2026.dfs.core.windows.net/"
+		},
+		"LS_AzureSQL_RajPractice_properties_typeProperties_server": {
+			"value": "raj-adf-practice-db.database.windows.net"
+		},
+		"LS_AzureSQL_RajPractice_properties_typeProperties_database": {
+			"value": "raj_adf_practice_db"
+		},
+		"LS_AzureSQL_RajPractice_properties_typeProperties_userName": {
+			"value": "raj_sql_admin"
+		},
+		"TGR_EVENT_SIMPLE_properties_PL_FILE_EVENT_parameters_file_name": {
+			"value": "@triggerBody().fileName"
+		},
+		"TGR_EVENT_SIMPLE_properties_typeProperties_scope": {
+			"value": "/subscriptions/894fba2c-23bd-4a49-bc93-01dfd3b1239f/resourceGroups/raj_adf_practice/providers/Microsoft.Storage/storageAccounts/rajadfstorage2026"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
