@@ -23,7 +23,11 @@
 					},
 					"dataset": {
 						"referenceName": "AzureSqlTable_RajPractice",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"schema": "dbo",
+							"table_name": "customers"
+						}
 					}
 				}
 			}
