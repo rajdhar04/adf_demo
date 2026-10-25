@@ -1,0 +1,28 @@
+{
+	"name": "TGR_EVENT_SIMPLE",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_FILE_EVENT",
+					"type": "PipelineReference"
+				},
+				"parameters": {
+					"file_name": "@triggerBody().fileName"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/source/blobs/source_folder",
+			"blobPathEndsWith": ".txt",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/894fba2c-23bd-4a49-bc93-01dfd3b1239f/resourceGroups/raj_adf_practice/providers/Microsoft.Storage/storageAccounts/rajadfstorage2026",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

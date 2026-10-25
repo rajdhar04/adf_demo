@@ -1,0 +1,21 @@
+{
+	"name": "raj-adf-practice-2026",
+	"properties": {
+		"globalParameters": {
+			"email_reciepent": {
+				"type": "string",
+				"value": "rajkanwar.dhar@gmail.com"
+			}
+		},
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8eea28ef-c678-48e9-baf2-0a40e549f080",
+		"tenantId": "a503066a-480f-409a-b88b-39b0b8b53bc8"
+	}
+}
